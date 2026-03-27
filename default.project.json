@@ -1,0 +1,27 @@
+{
+  "name": "TagGame",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "GameConfig": {
+        "$path": "src/ReplicatedStorage/GameConfig.lua"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameManager": {
+        "$path": "src/ServerScriptService/GameManager.server.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "TagClient": {
+          "$path": "src/StarterPlayerScripts/TagClient.client.lua"
+        }
+      }
+    }
+  }
+}
